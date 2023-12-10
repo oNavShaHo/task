@@ -1,0 +1,17 @@
+.hcard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 15rem;
+}
+
+.hc{
+  display: flex;
+  align-items: center;
+}
+
+.hc>img{
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+}

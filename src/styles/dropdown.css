@@ -1,0 +1,145 @@
+#display{
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  margin: 0;
+
+}
+
+#display>.ud{
+  width: 30px;
+  height: 20px;
+}
+
+#display>p{
+  font-weight: 500;
+}
+
+.drop{
+
+  display: flex;
+ 
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.drop>select{
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 1px rgb(171, 170, 170) solid;
+  border-radius: 4%;
+}
+.drop{
+ 
+  background-color: #f7f8f9;
+  border-color: aquamarine;
+  
+  
+ 
+
+}
+
+#d1{
+  border-bottom: 0px;
+  padding-bottom:0;
+}
+
+
+#d2{
+padding-left: 5%;  
+border-top: 0px;
+ 
+}
+
+
+.dropdown-container {
+  position: relative;
+  
+  
+}
+
+.dropdownm{
+  
+  background-color: white !important;
+  padding: 10px;
+ 
+}
+
+.dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color:#f7f8f9 ;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1;
+  
+}
+
+/* Add any other styles as needed */
+
+
+
+
+.drop>label{
+
+  color: #939394;
+  font-size: large;
+  
+}
+
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+  .drop
+  {
+   width: 55%;
+  }
+  .drop>label{
+    margin-right: 80px;
+  }
+
+}
+@media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */
+
+  .drop
+  {
+   width: 35%;
+  }
+  .drop>label{
+    margin-right: 80px;
+  }
+
+}
+@media (min-width:600px) {
+  
+  .drop
+ {
+  width: 35%;
+ }
+ .drop>label{
+  margin-right: 90px;
+}
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+ .drop
+ {
+  width: 25%;
+ }
+ .drop>label{
+  margin-right: 100px;
+}
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+
+  .drop
+  {
+   width: 15%;
+  }
+
+  .drop>label{
+    margin-right: 100px;
+  }
+}
