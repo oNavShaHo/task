@@ -1,3 +1,4 @@
+assignment website for - quicksell frontend position 
 React App created using useState ,json modification logic ,and fetch function .
 
 
